@@ -6,6 +6,9 @@ public class MyDebug {
 		// TODO Auto-generated method stub
 		// E2.01 Boolean változó használata
 		//       Ha a debug változó értéke igaz, debug üzeneteket írjunk a konzolra
+
+		// E2.02 A boolen változó vagy true vagy false értéket vehet fel
+		boolean debug=true;
 	}
 
 }
