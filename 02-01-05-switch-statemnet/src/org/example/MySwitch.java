@@ -15,6 +15,10 @@ public class MySwitch {
 		Scanner input=new Scanner(System.in);
 		int dayNumber;
 		dayNumber=input.nextInt();
+		
+		// E5.03 A számtól függõen történik az elágazás.
+		switch (dayNumber) {	
+		}
 	}
 
 }
