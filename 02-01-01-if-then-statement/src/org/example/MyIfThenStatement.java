@@ -25,6 +25,9 @@ public class MyIfThenStatement {
 		if (number%2==0) {
 			// E1.05 Igaz ág, {} blokk
 			//		 Kapcsos zárójel: Windows\Preferences\General\Keys\Skip all breakpoints\Unbind command\Apply		
+
+			// E1.06 Ha páros, kiírjuk a megfelelõ szöveget.
+			System.out.println(number+" páros szám.");
 		}		
 	}
 }
