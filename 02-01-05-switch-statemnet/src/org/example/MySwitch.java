@@ -41,6 +41,9 @@ public class MySwitch {
 			  case 7:
 			    System.out.println("Vasárnap");
 			    break;
+			  // E5.06 Alapértelmezett eset
+			  default:
+				   System.out.print("Ilyen sorszámú nap nincs a héten!");
 		}
 	}
 
