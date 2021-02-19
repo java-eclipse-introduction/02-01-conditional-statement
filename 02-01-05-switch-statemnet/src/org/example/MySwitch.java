@@ -18,6 +18,10 @@ public class MySwitch {
 		
 		// E5.03 A számtól függõen történik az elágazás.
 		switch (dayNumber) {	
+			  case 1:
+				  // E5.04 A hét elsõ napja. "1"-es eset.
+				  System.out.println("Hétfõ");
+				  break;
 		}
 	}
 
