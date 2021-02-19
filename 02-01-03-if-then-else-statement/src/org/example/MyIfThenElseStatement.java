@@ -17,6 +17,9 @@ public class MyIfThenElseStatement {
 		number=input.nextInt();
 		
 		// E3.03 megállapítjuk, hogy a szám kettõvel osztva milyen maradékot ad
-		if (number%2==0) 
+		if (number%2==0) {
+			// E3.04 Ha a maradék nulla, akkor a szám páros
+			System.out.println(number+" páros szám.");
+		}  
 	}
 }
