@@ -19,6 +19,10 @@ public class MyIfThenStatement {
 		int number;
 		number=input.nextInt();
 
+		// E1.04 Eldöntjük, hogy a megadott szám páros-e.
+		//		 Egy állítást fogalmazunk meg, amely vagy igaz vagy hamis.
+		//		 "A szám kettõvel osztva nulla maradékot ad."
+		if (number%2==0)		
 	}
 
 }
