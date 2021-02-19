@@ -15,6 +15,8 @@ public class MyIfThenElseStatement {
 		Scanner input=new Scanner(System.in);
 		int number;
 		number=input.nextInt();
+		
+		// E3.03 megállapítjuk, hogy a szám kettõvel osztva milyen maradékot ad
+		if (number%2==0) 
 	}
-
 }
