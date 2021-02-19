@@ -22,6 +22,25 @@ public class MySwitch {
 				  // E5.04 A hét elsõ napja. "1"-es eset.
 				  System.out.println("Hétfõ");
 				  break;
+			  // E5.05 Többi eset.
+			  case 2:
+			    System.out.println("Kedd");
+			    break;
+			  case 3:
+			    System.out.println("Szerda");
+			    break;
+			  case 4:
+			    System.out.println("Csütörtök");
+			    break;
+			  case 5:
+			    System.out.println("Péntek");
+			    break;
+			  case 6:
+			    System.out.println("Szombat");
+			    break;
+			  case 7:
+			    System.out.println("Vasárnap");
+			    break;
 		}
 	}
 
