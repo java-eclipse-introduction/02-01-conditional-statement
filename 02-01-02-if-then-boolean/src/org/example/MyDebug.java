@@ -9,6 +9,11 @@ public class MyDebug {
 
 		// E2.02 A boolen változó vagy true vagy false értéket vehet fel
 		boolean debug=true;
+
+		// E2.03 A boolen változó true kiiírjuk a debug szöveget, ha nem, nem írjuk ki a debug szöveget
+		if (debug) {
+			System.out.println("Bekérjük a számot.");
+		}
 	}
 
 }
