@@ -22,7 +22,9 @@ public class MyIfThenStatement {
 		// E1.04 Eldöntjük, hogy a megadott szám páros-e.
 		//		 Egy állítást fogalmazunk meg, amely vagy igaz vagy hamis.
 		//		 "A szám kettõvel osztva nulla maradékot ad."
-		if (number%2==0)		
+		if (number%2==0) {
+			// E1.05 Igaz ág, {} blokk
+			//		 Kapcsos zárójel: Windows\Preferences\General\Keys\Skip all breakpoints\Unbind command\Apply		
+		}		
 	}
-
 }
