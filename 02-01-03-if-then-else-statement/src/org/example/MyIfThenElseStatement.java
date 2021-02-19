@@ -20,6 +20,9 @@ public class MyIfThenElseStatement {
 		if (number%2==0) {
 			// E3.04 Ha a maradék nulla, akkor a szám páros
 			System.out.println(number+" páros szám.");
+		} else {
+			// E3.05 Hamis ág. Akkor fut le ez a kód, ha a number%2==0 kifejezés hamis.
+			System.out.println(number+" páratlan szám.");
 		}  
 	}
 }
