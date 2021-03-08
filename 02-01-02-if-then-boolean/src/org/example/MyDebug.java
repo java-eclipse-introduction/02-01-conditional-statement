@@ -23,6 +23,12 @@ public class MyDebug {
 		Scanner input=new Scanner(System.in);
 		int number;
 		number=input.nextInt();
-	}
 
+		// E2.05 Eldöntjük, hogy a megadott szám páros-e.
+		if (debug) {
+			System.out.println("Eldöntjük, hogy a szám páros-e.");
+		}
+		if (number%2==0) {			
+		}
+	}
 }
