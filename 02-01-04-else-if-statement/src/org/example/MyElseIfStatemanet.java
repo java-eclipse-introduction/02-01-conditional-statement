@@ -15,6 +15,9 @@ public class MyElseIfStatemanet {
 		Scanner input=new Scanner(System.in);
 		int number;
 		number=input.nextInt();
-	}
 
+		// E4.03 Eldönjük, hogy a szám nullánál nagyobb, kisebb, vagy egyenlõ
+		if (number>0) {
+		}
+	}
 }
