@@ -18,6 +18,8 @@ public class MyElseIfStatemanet {
 
 		// E4.03 Eldönjük, hogy a szám nullánál nagyobb, kisebb, vagy egyenlõ
 		if (number>0) {
+			// E4.04 A szám nullánál nagyobb
+			System.out.print("A szám pozitív.");			
 		}
 	}
 }
