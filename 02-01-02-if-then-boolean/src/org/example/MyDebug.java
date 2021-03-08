@@ -35,5 +35,9 @@ public class MyDebug {
 			}
 			System.out.println(number+" páros szám.");
 		}
+		// E2.07 Vége a programnak
+		if (debug) {
+			System.out.println("Program vége.");
+		}		
 	}
 }
