@@ -28,7 +28,12 @@ public class MyDebug {
 		if (debug) {
 			System.out.println("Eldöntjük, hogy a szám páros-e.");
 		}
-		if (number%2==0) {			
+		if (number%2==0) {	
+			// E2.06 Ha páros, kiírjuk a megfelelõ szöveget.
+			if (debug) {
+				System.out.println("Ha páros, kiírjuk az eredményt.");
+			}
+			System.out.println(number+" páros szám.");
 		}
 	}
 }
