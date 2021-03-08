@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class MyDebug {
 
 	public static void main(String[] args) {
@@ -9,6 +11,18 @@ public class MyDebug {
 
 		// E2.02 A boolen változó vagy true vagy false értéket vehet fel
 		boolean debug=true;
+		
+		// E2.03 A boolen változó true kiírjuk a debug szöveget, ha nem, nem írjuk ki a debug szöveget
+		if (debug) {
+			System.out.println("Bekérjük a számot.");
+		}
+		
+		// E2.04 Bekérjük a számot		
+		System.out.println("Megállapítom, hogy a szám páros-e!");
+		System.out.print("Adja meg a számot: ");
+		Scanner input=new Scanner(System.in);
+		int number;
+		number=input.nextInt();
 	}
 
 }
