@@ -23,6 +23,9 @@ public class MyElseIfStatemanet {
 		} else if (number<0) {
 			// E4.05 A szám nullánál kisebb
 			System.out.print("A szám negatív.");
+		} else {
+			// E4.06 Már csak egy eset maradt (else), a szám nulla
+			System.out.print("A szám nulla.");
 		}
 	}
 }
