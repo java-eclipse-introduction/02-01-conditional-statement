@@ -20,6 +20,9 @@ public class MyElseIfStatemanet {
 		if (number>0) {
 			// E4.04 A szám nullánál nagyobb
 			System.out.print("A szám pozitív.");			
+		} else if (number<0) {
+			// E4.05 A szám nullánál kisebb
+			System.out.print("A szám negatív.");
 		}
 	}
 }
